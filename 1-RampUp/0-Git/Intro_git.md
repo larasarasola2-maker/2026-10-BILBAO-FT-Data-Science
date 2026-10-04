@@ -24,13 +24,13 @@ Git se creó por primera vez en 2005 por Linus Torvalds, el creador del sistema 
 
 ## 2. ¿Por qué necesitamos Git?
 
-El desarrollo de software implica mucho más que simplemente escribir código. Implica el seguimiento de los cambios, la colaboración con otros desarrolladores, el pruebas de diferentes características y, a veces, el deshacer cambios que resultan ser una mala idea. Git nos ayuda con todas estas tareas y muchas más.
+El desarrollo de software implica mucho más que simplemente escribir código. Implica el seguimiento de los cambios, la colaboración con otros desarrolladores, el hacer pruebas de diferentes características y, a veces, el deshacer cambios que resultan ser una mala idea. Git nos ayuda con todas estas tareas y muchas más.
 
 Git también es muy útil para los científicos de datos y los analistas de datos. Permite el seguimiento de los cambios en los conjuntos de datos, los modelos de aprendizaje automático, los notebooks de Jupyter, etc. Esto facilita enormemente la experimentación y la colaboración.
 
 ## 3. ¿Cómo funciona Git?
 
-Git rastrea y registra los cambios en los archivos en un directorio llamado repositorio. Cada vez que realizamos un cambio y lo registramos en Git, Git crea una instantánea del nuestros archivos y almacena una referencia a esa instantánea. Si los archivos no han cambiado, Git no almacena el archivo de nuevo, solo un enlace al archivo idéntico anterior que ya tiene almacenado.
+Git rastrea y registra los cambios en los archivos en un directorio llamado repositorio. Cada vez que realizamos un cambio y lo registramos en Git, Git crea una instantánea del contenido de nuestros archivos y almacena una referencia a esa instantánea. Si los archivos no han cambiado, Git no almacena el archivo de nuevo, solo un enlace al archivo idéntico anterior que ya tiene almacenado.
 
 ## 4. Configuración básica de Git
 
@@ -39,7 +39,7 @@ Antes de comenzar a usar Git, debes configurar tu nombre y dirección de correo 
 Abre una terminal y ejecuta los siguientes comandos:
 
 ```bash
-git config --global user.name "Tu Nombre"
+git config --global user.name "Tu Nombre de usuario"
 git config --global user.email "tuemail@ejemplo.com"
 ```
 
@@ -76,7 +76,7 @@ GitHub es un servicio de alojamiento en la nube para repositorios de Git. Permit
 
 ## 8. ¿Cómo funciona GitHub?
 
-Cuando trabajas con un repositorio de Git en tu máquina local (tu computadora), se llama repositorio local. Puedes subir este repositorio a GitHub, lo que te permite almacenarlo de manera remota. Este repositorio remoto en GitHub puede ser accesado y descargado por otros desarrolladores. Puede servir como una copia de seguridad de tu trabajo en caso de que algo le suceda a tu máquina local, y permite a otros colaborar en tu proyecto.
+Cuando trabajas con un repositorio de Git en tu máquina local (tu ordenador), se llama repositorio local. Puedes subir este repositorio a GitHub, lo que te permite almacenarlo de manera remota. Este repositorio remoto en GitHub puede ser accedido y descargado por otros desarrolladores. Puede servir como una copia de seguridad de tu trabajo en caso de que algo le suceda a tu máquina local, y permite a otros colaborar en tu proyecto.
 
 ## 9. Creando una cuenta en GitHub
 
@@ -131,14 +131,14 @@ Espero que esta introducción te haya ayudado a entender qué es Git y GitHub y 
 Para seguir el curso, no descargaremos el material manualmente. Utilizaremos un flujo de trabajo con **Git** que te permitirá:
 
 1. Tener tu propia copia del material en tu cuenta de GitHub (**Fork**).
-2. Bajarte el material nuevo que el profesor suba cada día sin borrar tus apuntes.
+2. Descargar el material nuevo que el profesor suba cada día sin borrar tus apuntes.
 3. Subir tus ejercicios resueltos a tu propio perfil.
 
 ## 1. Configuración Inicial (Solo una vez)
 
 Sigue estos pasos el primer día:
 
-1. **Hacer el Fork**: Ve al repositorio del profesor ([ENLACE AQUÍ](https://github.com/TheBridge-BBK-Bootcamps/2026-02-BILBAO-FT-Data-Science.git)) y haz clic en el botón **"Fork"** (arriba a la derecha). Esto creará una copia en tu cuenta de GitHub.
+1. **Hacer el Fork**: Ve al repositorio del profesor ([ENLACE AQUÍ](https://github.com/TheBridge-BBK-Bootcamps/2026-10-BILBAO-FT-Data-Science.git)) y haz clic en el botón **"Fork"** (arriba a la derecha). Esto creará una copia en tu cuenta de GitHub.
 2. **Clonar TU fork**: Abre la terminal en tu ordenador y clona **tu** repositorio (sustituye `TU_USUARIO` por tu nombre de usuario de GitHub):
 
    ```bash
@@ -153,7 +153,7 @@ Sigue estos pasos el primer día:
    Para poder recibir las actualizaciones del profesor, debes añadir su repositorio como una fuente remota adicional llamada `upstream`:
 
    ```bash
-   git remote add upstream https://github.com/TheBridge-BBK-Bootcamps/2026-02-BILBAO-FT-Data-Science.git
+   git remote add upstream https://github.com/TheBridge-BBK-Bootcamps/2026-10-BILBAO-FT-Data-Science.git
    ```
 5. **Verificar la configuración**:
    Ejecuta `git remote -v`. Deberías ver algo como esto:
