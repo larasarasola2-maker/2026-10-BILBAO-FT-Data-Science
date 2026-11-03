@@ -98,7 +98,7 @@ Replaces NULL with the specified replacement value.
 Syntax
 
 ```sql
-ISNULL ( check_expression , replacement_value )  
+ISNULL ( check_expression , replacement_value )
 ```
 
 ## SQL ISNULL Examples
